@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gurukul || Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpg">
+</head>
+
+<body>
+    <!--===================
+    Fixed Social Aria Start
+    ====================-->
+    <ul class="fixed_social_ariaa">
+			<li><a href="https://www.facebook.com/GurukulBangladesh/" target="_blank"><img src="img/faceboook.png" alt="" /></a></li>
+			<li><a href="https://twitter.com/GurukulOfficial" target="_blank"><img src="img/furry_cushion_twitter.png" alt="" /></a></li>
+			<li><a href="https://www.linkedin.com/company/13192128" target="_blank"><img src="img/linkediin.png" alt="" /></a></li>
+			<li><a href="http://www.rssfeeds.com/" target="_blank"><img src="img/furry-cushion-rss_256.png" alt="" /></a></li>
+    </ul>
+   <!--===================
+    Fixes Social Aria End
+    ==================-->
+    <!--=============
+    Header Aria Start
+    ==============-->
+    <div class="container_full header_bg">
+        <div class="fix container">
+            <header id="header">
+                <div class="logo_left">
+                    <img src="img/Gurukul-New-Log1o.jpg" alt="">
+                </div>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gurukul.html">Gurukul</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div id="gotop"></div>
+    <!--===========
+    Header Aria End
+    ============-->
+    <!--==============
+    Content Aria Start
+    ===============-->
+    <div class="container_full border_top">
+        <div class="fix container">
+            <div class="content_wrapper">
+                <section class="left_content">
+                    <article class="single_post_wrapper">
+                        <img src="img/Mechatronic.png" alt="This photo about Mechatronic">
+                        <h2>Diploma in Metric Technology</h2>
+                        <p>Program Name: Diploma in Engineering Course Name: Diploma in Mechatronic Technology Course Duration: 4 Years (Full Time) Affiliation Available: Bangladesh Technical Education Board (BTEB) Career Options: Mechatronics engineers have excellent employment prospects as demand for qualified professionals with multidisciplinary skills combining knowledge of mechanical and electronic systems.</p>
+                        <a href="#" class="continue_r">Continue Reading</a>
+                    </article>
+                    <article class="single_post_wrapper">
+                        <img src="img/Textile.png" alt="This photo about Gurukul Textile">
+                        <h2>Diploma in Textile Engineering</h2>
+                        <p>Diploma in Textile Engineering (4 Years).</p>
+                        <a href="#" class="continue_r">Continue Reading</a>
+                    </article>
+                </section>
+                <div id="sidebar">
+                    <aside class="single_aside">
+                        <h2>About Gurukul</h2>
+                        <p>Success through traditional education in Bangladesh is not noticeable compared to the number of participants.</p>
+                        <p>Gurukul was formed by Bangladeshi and non resident Bangladeshi young entrepreneurs to focus on skill development among Bangladeshi young people. <a href="gurukul.html">more[..]</a></p>
+                    </aside>
+                    <aside class="single_aside">
+                        <h2>Search</h2>
+                        <div class="search_box_aria">
+                            <input type="text" placeholder="What are you looking for?">
+                            <input onclick="search()" type="submit">
+                        </div>
+                    </aside>
+                    <aside class="single_aside">
+                        <h2>Subscribe</h2>
+                        <div class="submit_aria">
+                            <input type="email" placeholder="Your Email">
+                            <input onclick="subscrive()" type="submit">
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <div class="content_bottom">
+                <a href="services.html" class="previous">&larr; Previous</a>
+                <a href="#" class="next">Next &rarr;</a>
+            </div>
+        </div>
+    </div>
+    <!--============
+    Content Aria End
+    =============-->
+    <!--=============
+    Footer Aria Start
+    ==============-->
+    <div class="container_full footer_bg">
+        <div class="fix container">
+            <footer class="footer">
+                <h2>Gurukul</h2>
+                <p>© 2018 - All Rights Reserved - Template Design By <a title="Go to my Facebook" href="https://www.facebook.com/tus78ar" target="__blank">Tusar</a></p>
+                <div class="social_aria">
+                    <ul>
+                        <li title="Go to facebook" class="facebook"><a href="https://www.facebook.com/GurukulBangladesh/" target="_blank"></a></li>
+                        <li title="Go to twitter" class="twitter"><a href="https://twitter.com/GurukulOfficial" target="_blank"></a></li>
+                        <li title="Go to linkedin" class="linkedin"><a href="https://www.linkedin.com/company/13192128" target="_blank"></a></li>
+                        <li title="Go to Google_plus" class="google_plus"><a href="https://plus.google.com/+GurukulEduBd" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!--===========
+    Footer Aria End
+    ============-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.gotop.js"></script>
+    <script>
+        function search() {
+            alert("What you are searching for is not here 😢")
+        }
+
+        function subscrive() {
+            alert("Thank you for Subscribe 😊")
+        }
+        (function($) {
+            $('#gotop').gotop();
+        }(jQuery));
+        $('#gotop').gotop({
+            customHtml: '<i class="fa fa-angle-up"></i>',
+            bottom: '25px',
+            right: '25px'
+        });
+    </script>
+</body>
+
+</html>
